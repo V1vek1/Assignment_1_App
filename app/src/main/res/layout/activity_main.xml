@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/welcome_to_vivek_knowledge_hub"
+        android:textColor="#009688"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="490dp"
+        android:backgroundTint="@color/material_dynamic_primary60"
+        android:text="@string/let_s_go"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck" />
+
+
+</LinearLayout>

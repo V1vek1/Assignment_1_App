@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment_1 App</string>
+    <string name="android">Android</string>
+    <string name="web">Web</string>
+    <string name="ml">ML</string>
+    <string name="hacking">Hacking</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="welcome_to_vivek_knowledge_hub">Welcome to Vivek Knowledge Hub</string>
+    <string name="let_s_go">Let\'s Go</string>
+</resources>
