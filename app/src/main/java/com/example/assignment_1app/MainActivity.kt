@@ -13,15 +13,15 @@ class MainActivity : AppCompatActivity() {
 
         //Maine yha ek variable bnaya jiska name h "bynIntent" or isme maine "Button" Design wale
         //section se isko attach kar diya
-        val btnIntent= findViewById<Button>(R.id.button)
+        val btnIntent = findViewById<Button>(R.id.button)
+
 
 
         //Yha per maine yeh code likha ki iss button per jab koi click karega to wo iss App ke dusre
         //Screen(Activity) per kaise jayega
+        btnIntent.setOnClickListener {
 
-        btnIntent.setOnClickListener {   //maine yha button ko action provide kiya ki,isko clickable bnao
-
-            intent= Intent(applicationContext, SecondActivity::class.java)  //Phir maine isme ek "intent" bnaya Or usme
+            intent = Intent(applicationContext, SecondActivity::class.java)   //Phir maine isme ek "intent" bnaya Or usme
             //"intent" method call kiya Or Phir uss
             //"Intent" me two "parameter" Pass kiya,
             //Or phir isko ek "context" diya Jiska name
@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             //jana h click karne ke baad Or jo last me "Java"
             //wo rule h likhne ka
 
-            startActivity(intent)    //Or yha maine "startActivity" Function call karke, "intent ki Help se
+            startActivity(intent)   //Or yha maine "startActivity" Function call karke, "intent ki Help se
                                      //maine Second Activity ko call kiya h
         }
     }

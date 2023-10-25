@@ -12,7 +12,7 @@
         android:id="@+id/cardWeb"
         android:layout_width="150dp"
         android:layout_height="110dp"
-        android:backgroundTint="@color/material_dynamic_primary70"
+        android:backgroundTint="@color/green"
         android:layout_margin="30dp"
         android:layout_gravity="center">
 
@@ -31,7 +31,7 @@
         android:id="@+id/cardWeb2"
         android:layout_width="150dp"
         android:layout_height="110dp"
-        android:backgroundTint="@color/material_dynamic_primary70"
+        android:backgroundTint="@color/green"
         android:layout_margin="20dp"
         android:layout_gravity="center">
 
@@ -52,7 +52,7 @@
         android:id="@+id/cardWeb3"
         android:layout_width="150dp"
         android:layout_height="110dp"
-        android:backgroundTint="@color/material_dynamic_primary70"
+        android:backgroundTint="@color/green"
         android:layout_margin="20dp"
         android:layout_gravity="center">
 
@@ -73,7 +73,7 @@
         android:id="@+id/cardWeb4"
         android:layout_width="150dp"
         android:layout_height="110dp"
-        android:backgroundTint="@color/material_dynamic_primary70"
+        android:backgroundTint="@color/green"
         android:layout_margin="20dp"
         android:layout_gravity="center">
 
