@@ -8,7 +8,8 @@ class AndroidActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_android)
 
-        //Maine "AndroidActivity" New Activity issiliye bnaya h taki mai ek Emplicit Intent ki help se
-        //aapne "SecondActivity" se "Android" wale "CardView" ko Open karna chahta tha
+    //Maine "AndroidActivity" New Activity issiliye bnaya h taki mai ek Emplicit Intent (yani App ke under hi
+    //open hone wala page) ki help se aapne "SecondActivity" ke "Android" wale "CardView" ko Open karna chahta tha
+
     }
 }
